@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Login Page</title>
+    <style>
+        * {transition: .5s;}
+        .super{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:midnightblue;
+            font-size: 20px;
+            font-weight: bold;
+            float: left;
+            padding: 9px 15px;
+        }
+        .call{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            float: right;
+            padding: 40px 25px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        .pick{
+            border: 2px solid blue;
+            padding: 20px;
+            width: 400px;
+            font-size: 18px;
+        }
+        .dock{
+            border: 2px solid midnightblue;
+            padding: 20px;
+            width: 400px;
+            font-size: 18px;
+        }
+        .log{
+            background-color: blue;
+            border-radius: 40px;
+            border-collapse: collapse;
+            border: none;
+            padding: 15px;
+            width: 150px;
+            color: white;
+
+        }
+        .log:hover {
+            background-color: crimson;
+        }
+        th td{
+            float: left;
+        }
+        .body {
+            background-color: aliceblue;
+        }
+        /* unvisited link */
+        a:link {
+            color: red;
+        }
+
+        /* visited link */
+        a:visited {
+            color: blueviolet;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: midnightblue;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+        }
+    </style>
+</head>
+<body class="body">
+    <p class="super"><a style="color: blueviolet;">C</a>reative</p>
+    <span class="call">New User? <a style="text-decoration: none" title="Register" href="file:///C:/Users/User/ADEMOLA%20CODE%20LIBRARY/MY%20PRACTICAL%20FOLDER/bootsrap/Login%20Form%20Project/my%20signup%20form.html">Sign Up</a></span>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table width="80%" style="margin-left: 100px; border-collapse:collapse">
+        <thead>
+            <tr>
+                <td><img src="./IMAGES/bubb.png" alt="" style="width: 500px;"></td>
+                <td style="float: left; border-collapse:collapse"><h1 style="font-family: Verdana, 
+                    Geneva, Tahoma, sans-serif;">
+                    Welcome Back!</h1><span style="margin: bottom 30px;font-family: Verdana, Geneva, 
+                    Tahoma, sans-serif;color: darkgray;">
+                    Login to continue</span>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <form action="/action_page.php" target="_blank">
+                        <!-- <label for="fname">First name:</label> -->
+                        <input class="pick" type="text" id="fname" name="fname" placeholder="username111@gmail.com">
+                        <br>
+                        <br>
+                        <!-- <label for="fname">First name:</label> -->
+                        <input class="dock" type="password" id="fname" name="fname" placeholder="Enter Password">
+                        <br>
+                        <br>
+                        <button class="log" type="Submit">LOGIN</button> 
+                        <span style="float: right; 
+                        padding-top: 20px; 
+                        margin-right: 100px; font-size: 12px;"><b>
+                        <a style="text-decoration: none;" href="">FORGET PASSWORD?</a></b></span>
+                    </form>
+                        
+                    <br>
+                    <br>
+                    <br>
+                    <span style="padding-top: 13px; float: left;">Login with </span><a href="https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession">
+                        <img style="border-radius: 50%; width:47px; height: 40px; margin-left: 40px;"
+                            src="./IMAGES/google logo.webp" alt=""></a><a href="https://www.facebook.com/"><img style="border-radius: 
+                            50%; width:47px; height: 40px; margin-left: 40px;"
+                            src="./IMAGES/facebook logo 2.png" alt=""></a><a href="https://twitter.com/"><img 
+                            style="border-radius: 50%; width:47px; height: 40px; margin-left: 40px;"
+                            src="./IMAGES/twitter logo 2.png" alt=""></a>
+                </td>
+                    
+            </tr>
+        </thead>
+    </table>
+    
+</body>
+</html>
